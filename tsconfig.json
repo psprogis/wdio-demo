@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "commonjs",
+        "sourceMap": true,
+        "outDir": "./build",
+        "strict": true,
+        "types": ["webdriverio", "mocha", "node"],
+        "exclude": [
+            "node_modules/"
+        ]
+    }
+}
