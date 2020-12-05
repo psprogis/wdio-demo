@@ -2,12 +2,14 @@
     "compilerOptions": {
         "target": "es2018",
         "module": "commonjs",
-        "sourceMap": true,
         "outDir": "./build",
+        "allowJs": true,
+        "inlineSourceMap": true,
         "strict": true,
-        "types": ["webdriverio", "mocha", "node"],
-        "exclude": [
-            "node_modules/"
+        "types": [
+            "node",
+            "@wdio/sync",
+            "@wdio/mocha-framework"            
         ]
     }
 }
