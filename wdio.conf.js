@@ -1,3 +1,5 @@
+require('ts-node').register({ files: true });
+
 exports.config = {
     hostname: "localhost",
     port: 4444,
@@ -18,7 +20,8 @@ exports.config = {
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'info',
     bail: 0,
-    baseUrl: 'http://ip-5236.sunline.net.ua:38015/',
+    // baseUrl: 'http://ip-5236.sunline.net.ua:38015/',
+    baseUrl: 'https://www.uoduckstore.com/',
 
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
